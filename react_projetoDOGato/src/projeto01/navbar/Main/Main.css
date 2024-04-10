@@ -1,0 +1,24 @@
+.img-gatos{
+    padding-top: 80px ;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: (6, 1fr);
+}
+.grid-item:nth-child(6n+ 1),
+.grid-item:nth-child(6n+ 2),
+.grid-item:nth-child(6n+ 3){
+    grid-column: span 2;
+}
+.grid-item:nth-child(6n+ 4),
+.grid-item:nth-child(6n+ 5){
+    grid-column: span 3;
+}
+
+.grid-item:nth-child(6n+ 6){
+    grid-column: span 6;
+}
