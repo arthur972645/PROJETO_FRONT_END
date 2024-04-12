@@ -26,6 +26,7 @@ const Main = () => {
                             name="GitHub"
                         />
                         <Button
+                        
                             link="https://www.github.com"
                             name="Linkedin"
                         />

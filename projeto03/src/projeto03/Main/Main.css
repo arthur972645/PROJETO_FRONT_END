@@ -1,0 +1,23 @@
+.box-principal{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-info{
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 00px 4px 36px -10px rgba(0, 0, 0, 1);
+}
+.box-btn{
+    border:  2px solid red;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 5px;
+    padding: 5px;
+}
