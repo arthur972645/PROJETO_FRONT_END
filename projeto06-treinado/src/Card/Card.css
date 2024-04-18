@@ -1,0 +1,25 @@
+article{
+  height: 600px;
+  width: 400px;
+  background-color: rgb(167, 232, 232);
+  padding: 50px;
+}
+img{
+  height: 70px;
+}
+h1{
+  margin-top: 50px;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: white;
+}
+p{
+  margin-top: 50px;
+  font-family:'Lexend Deca', sans-serif ;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
