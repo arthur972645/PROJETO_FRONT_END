@@ -3,7 +3,7 @@ import './Card.css'
 
 const Card = ({imagem, titulo,texto, color}) => {
   return(
-    <article style={{backgroundColor:color}}>
+    <article style={{backgroundColor: color}}>
       <img src={imagem} alt="" />
       <h1>{titulo}</h1>
       <p>{texto}</p>

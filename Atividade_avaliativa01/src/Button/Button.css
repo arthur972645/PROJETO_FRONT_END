@@ -1,0 +1,13 @@
+button{
+    height: 40px;
+    width: 400px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}

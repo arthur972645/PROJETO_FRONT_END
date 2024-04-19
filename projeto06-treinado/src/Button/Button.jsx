@@ -6,7 +6,7 @@ const Button = ({texto}) => {
 
 
   return(
-    <button>{texto}</button>
+    <button >{texto}</button>
   )
 }
 export default Button
