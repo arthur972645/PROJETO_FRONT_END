@@ -1,11 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './RevisãoUseState/atividade01/App'
-import Lista from './RevisãoUseState/Lista'
+import App from './projeto04/App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Lista/>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
