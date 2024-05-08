@@ -1,0 +1,12 @@
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    background-color:hsl(216, 12%, 8%);
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
