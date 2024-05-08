@@ -1,0 +1,36 @@
+
+.botao-inativo{
+  background-color:hsla(0, 0%, 44%, 0.637);
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family:'Overpass',sans-serif ;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+.botao-inativo:hover{
+  background-color: hsl(25, 97%, 53%);
+}
+
+.botao-ativo{
+  background-color:hsl(0, 0%, 55%);
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family:'Overpass',sans-serif ;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+.botao-ativo:hover{
+  background-color: hsl(25, 97%, 53%);
+}
+
+

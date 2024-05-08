@@ -1,0 +1,13 @@
+.Textos{
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+}
+p{
+  line-height: 1.5;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%)
+}
+h1{
+  font-size: 30px;
+}

@@ -1,0 +1,60 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-principal{
+  height: 450px;
+  width: 400px;
+  border-radius: 40px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 25px;
+}
+.box-texto{
+  /* border: 2px solid red;  */
+  height: 150px;
+  display: flex;
+  align-items: end;
+  
+}
+.Imagem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  background-color: hsl(0, 0%, 31%)
+}
+.box-btn{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between; 
+  /* border: 2px solid red;  */
+} 
+.box-btn02{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.box-btn02 button{
+  width: 375px;
+  height: 50px;
+  border-radius: 40px;
+  font-family:'Overpass',sans-serif ;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.box-btn02 button:hover{
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
