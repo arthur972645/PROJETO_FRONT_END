@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Select from './FORMS/select'
+import App from './FORMS/atividade/App'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Select/>
+    <App/>
   </React.StrictMode>
 )

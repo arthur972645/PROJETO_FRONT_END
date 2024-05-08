@@ -1,11 +1,11 @@
 import React from "react"
 const Forms = () => {
 
-    const[nome, setNome] = React.useState()
-    const[email, setEmail] = React.useState()
+    const[nome, setNome] = React.useState('')
+    const[email, setEmail] = React.useState('')
 
     function clickSubmit(event){
-        event.preventDefalute()
+        event.preventDefault()
     }
 
     return(
@@ -15,7 +15,7 @@ const Forms = () => {
                 type="text"
                 id="nome"
                 value={nome}
-                onChange= {({targen}) => setNome(targen.value)}
+                onChange= {({target}) => setNome(target.value)}
                 
             />
             <p>{nome}</p>
@@ -24,10 +24,10 @@ const Forms = () => {
                 type="text"
                 id="nome"
                 value={email}
-                onChange= {({targen}) => setEmail(targen.value)}
+                onChange= {({target}) => setEmail(target.value)}
                 
             />
-            <p>{nome}</p>
+            <p>{email}</p>
         </form>
     )
 }
