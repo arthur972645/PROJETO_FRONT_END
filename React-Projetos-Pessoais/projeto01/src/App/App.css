@@ -3,6 +3,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color:hsl(216, 12%, 8%);
 }
 .box-principal{
   height: 450px;

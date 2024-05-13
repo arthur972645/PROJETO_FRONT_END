@@ -1,0 +1,8 @@
+p{
+    border: 2px solid red;
+    font-family: 'Fraunces', sans-serif;
+    width: 300px;
+    display: flex;
+    justify-content: end ;
+    
+}
