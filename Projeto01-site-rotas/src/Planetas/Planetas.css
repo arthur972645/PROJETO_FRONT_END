@@ -1,0 +1,26 @@
+.Planetas{
+    background-color: rgba(11,13,25,255);
+    height: 100vh;
+}
+.Planeta1{
+    border:  2px solid red;
+    display: flex;
+    flex-direction: row;
+}
+.ImagemPlaneta1{
+    padding: 50px;
+     
+}
+.BoxPlaneta{
+    border:  2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.BoxTextoPlaneta{
+    width: 1000px;
+    height: 350px;
+    background-color: rgba(45, 45, 45, 0.666);
+}

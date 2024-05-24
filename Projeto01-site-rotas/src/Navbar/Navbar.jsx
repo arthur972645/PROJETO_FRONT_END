@@ -20,8 +20,8 @@ const Navbar = () => {
             
             <BoxNavbar>
                 <StyledLink  
-                    onClick={() => HandleClick('/')}
-                    to="/"> Home
+                    onClick={() => HandleClick('/planetas')}
+                    to="/"> Planetas
                     
                     
                 
