@@ -40,12 +40,12 @@ position: relative;
   left: 0;
   bottom: 0;
   height: 2px;
-  width: 0; /* Começa com largura zero */
-  background-color: rgb(255, 255, 255); /* Cor da linha */
-  transition: width 0.3s ease; /* Transição suave da largura */
+  width: 0; 
+  background-color: rgb(255, 255, 255); 
+  transition: width 0.3s ease;
 }
 
 &:hover::after {
-  width: 100%; /* A linha expande para 100% da largura do link */
+  width: 100%; 
 }
 `

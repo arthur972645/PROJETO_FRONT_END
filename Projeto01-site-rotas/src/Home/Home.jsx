@@ -5,7 +5,9 @@ import {BoxTexto} from './Styles.js'
 import './Home.css'
 import Footer from '../Footer/Footer.jsx'
 import Planetas from '../Planetas/Planetas.jsx'
-
+import ImagemPlaneta1 from '../assets/space-tourism-website-main/starter-code/assets/destination/image-europa.png'
+import {StyledLink} from './Styles.js'
+import { Link } from 'react-router-dom'
 const Home = () => {
     return(
         <section>
@@ -19,7 +21,11 @@ const Home = () => {
                     />
                 </BoxTexto>
             </section>
-            <Planetas/>
+            <Planetas
+                ImagemPlaneta={ImagemPlaneta1}
+                link={<StyledLink  to="/todos-os-planetas"> Planetas </StyledLink>}
+            />
+           
             <Footer/>
         </section>
         
