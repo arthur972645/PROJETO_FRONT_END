@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+
 export const Planeta = styled.section`
 background-color: rgba(11,13,25,255);
-height: 80vh;
+height: 60vh;
+border: 2px solid red;
 `
 export const Planeta1 = styled.section`
 display: flex;

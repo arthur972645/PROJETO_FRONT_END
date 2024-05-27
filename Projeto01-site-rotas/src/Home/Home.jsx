@@ -1,13 +1,12 @@
 import Texto from '../Texto/Texto.jsx'
 import Navbar from '../Navbar/Navbar.jsx'
-import Card from '../Card/Card.jsx'
 import {BoxTexto} from './Styles.js'
 import './Home.css'
 import Footer from '../Footer/Footer.jsx'
 import Planetas from '../Planetas/Planetas.jsx'
 import ImagemPlaneta1 from '../assets/space-tourism-website-main/starter-code/assets/destination/image-europa.png'
 import {StyledLink} from './Styles.js'
-import { Link } from 'react-router-dom'
+import Tecnoligias from '../Tecnoligias/Tecnologias.jsx'
 const Home = () => {
     return(
         <section>
@@ -25,6 +24,10 @@ const Home = () => {
                 ImagemPlaneta={ImagemPlaneta1}
                 link={<StyledLink  to="/todos-os-planetas"> Planetas </StyledLink>}
             />
+            <Tecnoligias
+               
+            />
+            
            
             <Footer/>
         </section>
